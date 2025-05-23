@@ -9,7 +9,7 @@ pipeline {
     stage('Clone Repository') {
       steps {
         dir('part2') {
-          git branch: 'main', url: 'https://github.com/MUmarAzad/MERN-Ecommerce-Site.git'
+          git branch: 'main', url: 'https://github.com/MUmarAzad/mern-ecommerce.git'
         }
       }
     }
